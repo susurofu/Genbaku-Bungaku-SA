@@ -1,0 +1,4 @@
+Variable,U-statistic,p-value
+Direct Speech Sentiment,1397.0,0.3587
+Author's Speech Sentiment,1476.0,0.6415
+Difference Value,1460.0,0.5775

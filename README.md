@@ -8,16 +8,14 @@ This article examines gendered emotional patterns in Japanese Atomic Bomb Litera
 ## Repository Structure
 This repository includes 4 folders:
 
-1. *Data*  
-   As the texts from *Anthology of Japanese Atomic Bomb Literature* are protected by copyright law, the OCRed texts are not published in the repository. Instead, the sentiment scores for every sentence of every text in the corpus are provided, including for direct speech and author's speech.
 
-2. *Figures*  
+1. *Figures*  
    The folder contains figures resulting from the analysis.
 
-3. *Tables*  
+2. *Tables*  
    The folder contains tables resulting from the analysis, including some additional interim tables.
 
-4. *Notebooks*
+3. *Notebooks*
 
    *Notebook 1: Text Preprocessing*  
    This notebook preprocesses the texts and runs the script to replace frequent patterns of OCR errors in the corpus.
@@ -27,6 +25,9 @@ This repository includes 4 folders:
 
    *Notebook 3: Test of Oseti against other SA models*  
    This notebook tests Oseti against transformer models.
+
+   *Notebook 4: Results Evaluation*  
+   This notebook contains tests for statistical significancy of the results (Mann-Whitney U test, permutation test, Chi-squared test) and discusses more detaily than in the text of the article the outcomes of these tests.
 
 ## Note on *Oseti* Usage
 Oseti received its last update to the main Python script in 2023. Depending on the version of MeCab being used, there could be issues with the incompatibility of Oseti with newer MeCab versions. If you encounter an error, check the following line:
